@@ -1,0 +1,95 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Lato', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 0px 0px -4px 0px;
+  padding: 8px 0px 0px 0px;
+}
+
+p, li {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+li {
+  margin: 0px 0px 0px 0px;
+}
+
+.column {
+  float: left;
+  vertical-align: top;
+}
+
+.left {
+  width: 15em;
+  vertical-align: top;
+}
+
+.right {
+  width: 40em;
+  vertical-align: top;
+}
+
+.middle {
+  width: 36em;
+  vertical-align: top;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:focus {
+  text-decoration: none;
+  color: blue;
+}
+
+a:active {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: blue; 
+  text-decoration: underline;
+}
+
+details > summary {
+  color: blue;
+  cursor: pointer;
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > p {
+  letter-spacing: 0.5px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.5;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
