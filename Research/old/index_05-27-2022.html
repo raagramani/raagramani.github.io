@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <script type="text/javascript" id="MathJax-script" async
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script type="text/javascript">
+      window.onload = function() {
+          var a = document.getElementById("mylink");
+          a.onclick = function() {
+              localStorage.setItem("open", "true");
+          }
+      }
+    </script>
+    <title>Research</title>
+  </head>
+  <body>
+    <h1><a href="../main.html">Raaghav Ramani</a></h1>
+    <hr>
+      <h2 id="Publications">Publications</h2>
+        <ol reversed>
+          <li>R. Ramani & S. Shkoller <br> 
+          <a href="pdfs/RaSh2022-05-17-22.pdf" style="color:#ac3973;"><i>A fast dynamic smooth adaptive meshing scheme with applications to compressible flow</i></a> <br>
+           <a href="https://arxiv.org/abs/2205.09463">arXiv:2205.09463 [physics.comp-ph]</a> (2022) 
+          </li>
+          <li>R. Ramani & S. Shkoller <br> 
+            <a href="pdfs/RaSh2020a.pdf" style="color:#ac3973;"><i>A multiscale model for Rayleigh-Taylor and Richtmyer-Meshkov instabilities</i></a><br>
+            <a href="https://doi.org/10.1016/j.jcp.2019.109177">Journal of Computational Physics 405:109177 (2020) </a></li>
+          <li>R. Ramani, J. Reisner, & S. Shkoller <br>  
+            <a href="pdfs/RaReSh2019b.pdf" style="color:#ac3973;"><i>A space-time smooth artificial viscosity method with wavelet noise indicator and shock collision scheme, Part 2: the 2-D case</i></a><br>
+            <a href="https://doi.org/10.1016/j.jcp.2019.02.048">Journal of Computational Physics 387 (2019), 45-80 </a></li></li>
+            <li>R. Ramani, J. Reisner, & S. Shkoller <br>  
+              <a href="pdfs/RaReSh2019a.pdf" style="color:#ac3973;"><i>A space-time smooth artificial viscosity method with wavelet noise indicator and shock collision scheme, Part 1: the 1-D case</i></a><br>
+              <a href="https://doi.org/10.1016/j.jcp.2019.02.049">Journal of Computational Physics 387 (2019), 81-116 </a></li></li>
+              <li>R. Ramani <br>  
+                <a href="pdfs/thesis.pdf" style="color:#ac3973;"><i>Regularity theory for the axially symmetric incompressible Navier-Stokes equations without swirl</i></a><br>
+               Master's thesis, University of Oxford (2016) </li>
+        </ol>
+      <hr>
+      <h2 id="Research">Research</h2>
+      <ol>
+        <li>
+          <details>
+            <summary><strong>Artificial viscosity for nonlinear conservation laws</strong></summary>
+            <p>Discontinuous solutions to nonlinear conservation laws require special numerical techniques to capture propagating fronts in a stable and non-oscillatory manner. 
+               One such technique is the incorporation of an explicit dissipation mechanism in the form of artificial viscosity.   
+               In [<a href="https://doi.org/10.1016/j.jcp.2019.02.049" style="color:blue">RRS19a</a>,<a href="https://doi.org/10.1016/j.jcp.2019.02.048" style="color:blue">RRS19b</a>], we develop the <i>C-method</i> for 
+               hyperbolic systems of conservation laws. The C-method combines several novel numerical techniques, including: 
+               <ul>
+                 <li>
+                   <a href="../Videos/videos.html#front-tracking" style="color:blue">Space-time smooth tracking of fronts and their associated geometries;</a>
+                 </li>
+                 <li>
+                  <a href="../Videos/videos.html#iso-visc" style="color:blue">Directionally isotropic and anisotropic artificial viscosity for stabilization of shocks and contacts, respectively;</a>
+                 </li>
+                 <li>
+                  <a href="../Videos/videos.html#wavelet" style="color:blue">Wavelet-based noise detection and removal.</a>
+                 </li>
+               </ul>
+               See the following links for videos of the C-method applied to a number of challenging test problems, including the 
+               <a href="../Videos/videos.html#LeBlanc" style="color:blue">LeBlanc shock tube</a>, the 
+               <a href="../Videos/videos.html#Noh" style="color:blue">Noh implosion</a>, the 
+               <a href="../Videos/videos.html#RT" style="color:blue">Rayleigh-Taylor (RT) instability</a>, and 
+               <a href="../Videos/videos.html#shock-reflection" style="color:blue">shock reflection and bounce-back experiments</a>. 
+            </p>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary><strong>Asymptotic models and multiscale simulations of unstable fluid interfaces</strong></summary>
+            <p>blah.</p>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary><strong>Dynamic mesh generation</strong></summary>
+            <p>blah.</p>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary><strong>Reactive gas dynamics</strong></summary>
+            <p>blah.</p>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary><strong>Numerical study of singularity formation</strong></summary>
+            <p>blah.</p>
+          </details>
+        </li>
+      </ol>
+      
+     
+      
+
+      <hr>
+      
+
+  </body>
+</html>
