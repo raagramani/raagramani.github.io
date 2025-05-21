@@ -1,0 +1,124 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Lato', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h3 {
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: decimal;      /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  font-weight: bold;
+  margin: 0px 0px 8px 16px;
+  letter-spacing: 0.5px;
+  padding: 16px 0px 0px 0px;
+}
+
+h4 {
+  font-size: 15px;
+  list-style-type: decimal;      /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  font-weight: bold;
+  margin: 0px 0px 8px 16px;
+  letter-spacing: 0.5px;
+  padding: 16px 0px 0px 0px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+ol li {
+  font-size: 15px;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  margin: 16px 0px; 
+}
+
+ul li {
+  font-size: 15px;
+  line-height: 0.5;
+  letter-spacing: 0.5px;
+  margin: 16px 0px; 
+}
+
+ul {
+  margin: -8px 0px 0px 0px;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: blue; 
+  text-decoration: underline;
+}
+
+details > summary {
+  list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 0px;
+  width: device-width;
+  margin: 0px 0px 0px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+details > summary:hover {
+  color: blue
+}
+
+
+details > p {
+  letter-spacing: 0.5px;
+  padding: 8px 300px 8px 0px;
+  margin: 0px 80px 0px 0px;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+video {
+  /* override other styles to make responsive */
+  width: 80%    !important;
+  height: auto   !important;
+}
+
