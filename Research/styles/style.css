@@ -118,7 +118,7 @@ details > p {
 
 video {
   /* override other styles to make responsive */
-  width: 33%    !important;
+  width: 40%    !important;
   height: auto   !important;
 }
 
