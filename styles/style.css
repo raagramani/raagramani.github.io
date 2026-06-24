@@ -93,3 +93,7 @@ details > p {
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+
+body {
+    padding: 20px 40px;
+}
